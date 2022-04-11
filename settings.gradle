@@ -1,0 +1,6 @@
+rootProject.name = 'demo'
+include 'controller'
+include 'Service'
+include 'service'
+include 'services'
+
