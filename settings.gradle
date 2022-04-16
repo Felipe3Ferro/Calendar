@@ -1,6 +1,3 @@
-rootProject.name = 'demo'
-include 'controller'
-include 'Service'
-include 'service'
-include 'services'
-
+rootProject.name = 'template'
+include ':contract'
+include ':impl'
