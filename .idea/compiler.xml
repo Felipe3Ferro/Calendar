@@ -10,6 +10,7 @@
         </processorPath>
         <module name="template.contract.main" />
         <module name="template.main" />
+        <module name="template.integration.main" />
         <module name="template.impl.main" />
       </profile>
     </annotationProcessing>

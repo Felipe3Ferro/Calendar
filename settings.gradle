@@ -1,3 +1,5 @@
 rootProject.name = 'template'
 include ':contract'
 include ':impl'
+include ':integration'
+

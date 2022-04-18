@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 
-import java.util.List;
-
-@AllArgsConstructor
 @RestController
+@AllArgsConstructor
 @RequestMapping("/v1/trello")
 public class TrelloController {
 

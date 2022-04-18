@@ -4,8 +4,10 @@ import com.calendar.controller.v1.trello.mapper.response.BoardControllerResponse
 import com.calendar.controller.v1.trello.model.response.BoardControllerResponse;
 import com.calendar.trello.TrelloService;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 
+@Component
 @AllArgsConstructor
 public class TrelloControllerFacade {
 
