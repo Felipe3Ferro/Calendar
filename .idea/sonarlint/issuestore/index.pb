@@ -44,8 +44,6 @@ Vimpl/src/main/java/com/calendar/trello/mapper/response/BoardServiceResponseMapp
 `integration/src/main/java/com/calendar/trello/model/response/ListofBoardIntegrationResponse.java,5/e/5e49a83821288a19369d226d8dea73de9ab5f1bc
 ‰
 Yintegration/src/main/java/com/calendar/trello/model/response/CardIntegrationResponse.java,3/a/3a32c92445255c04e6fff302c3ef9145ab5386d6
-y
-Iintegration/src/main/java/com/calendar/trello/config/WebClientConfig.java,1/0/10da25a73b04bc86c68b67b27f04c3b6021c7184
 i
 9impl/src/main/java/com/calendar/trello/TrelloService.java,c/0/c0a561df48004f0f710dc7d5bea1a5c03b6c58e3
 ‹

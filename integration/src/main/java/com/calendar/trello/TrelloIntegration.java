@@ -5,7 +5,9 @@ import com.calendar.trello.model.response.BoardIntegrationResponse;
 import com.calendar.trello.model.response.CardIntegrationResponse;
 import com.calendar.trello.model.response.ListofBoardIntegrationResponse;
 import lombok.AllArgsConstructor;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -19,16 +21,17 @@ public class TrelloIntegration {
     private final WebClient webClient;
 
     public Flux<BoardIntegrationResponse> getBoard() {
-        Mono<BoardIdIntegrationResponse> a = webClient.get()
+
+        Mono<List<BoardIdIntegrationResponse>> response = webClient.get()
                 .uri(uriBuilder -> uriBuilder
                         .path("/1/members/me/boards")
                         .queryParam("key", "4d22d21f5c6e14648a954f215c23a55f")
                         .queryParam("token", "348302ac70e0e10c33a0d89ebaee4194609f992f422c13bb30d70531718efba3")
                         .build())
                 .retrieve()
-                .bodyToMono(BoardIdIntegrationResponse.class);
+                .bodyToMono(new ParameterizedTypeReference<List<BoardIdIntegrationResponse>>() {});
 
-        System.out.println(a.block().getIdentifs().toString());
+        System.out.println(response.block());
 
         return  Flux.just(BoardIntegrationResponse.builder()
                 .id("123")
