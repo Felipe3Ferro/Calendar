@@ -1,5 +1,5 @@
 rootProject.name = 'template'
-include ':contract'
-include ':impl'
-include ':integration'
+include 'contract'
+include 'impl'
+include 'integration'
 
