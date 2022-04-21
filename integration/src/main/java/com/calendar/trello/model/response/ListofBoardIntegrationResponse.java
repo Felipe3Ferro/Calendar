@@ -1,5 +1,6 @@
 package com.calendar.trello.model.response;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,8 +14,9 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ListofBoardIntegrationResponse {
+    @JsonProperty("id")
     private String id;
+    @JsonProperty("name")
     private String name;
-    private String desc;
-    private List<CardIntegrationResponse> cardServiceResponse;
+    private List<CardIntegrationResponse> cardIntegrationResponses;
 }

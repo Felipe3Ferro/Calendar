@@ -13,6 +13,15 @@ public class TrelloService {
     private final TrelloIntegration trelloIntegration;
 
     public Flux<BoardServiceResponse> getBoard(){
-        return trelloIntegration.getBoard().map(BoardServiceResponseMapper::toBoardServiceResponse);
+        return trelloIntegration.getBoard()
+                .map(value ->  trelloIntegration.getListofBoard(value.getId()));
+
+
+
+//        return trelloIntegration.getBoard().map(BoardServiceResponseMapper::toBoardServiceResponse);
     }
+
+
+
+
 }

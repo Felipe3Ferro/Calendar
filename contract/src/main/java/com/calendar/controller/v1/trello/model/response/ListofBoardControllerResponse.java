@@ -14,6 +14,5 @@ import java.util.List;
 public class ListofBoardControllerResponse {
     private String id;
     private String name;
-    private String desc;
     private List<CardControllerResponse> cardControllerResponses;
 }

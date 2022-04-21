@@ -21,8 +21,7 @@ public class BoardServiceResponseMapper {
                         ListofBoardServiceResponse.builder()
                                 .id(varListofBoardIntegrationResponse.getId())
                                 .name(varListofBoardIntegrationResponse.getName())
-                                .desc(varListofBoardIntegrationResponse.getDesc())
-                                .cardServiceResponse(toCardServiceResponse(varListofBoardIntegrationResponse.getCardServiceResponse()))
+                                .cardServiceResponse(toCardServiceResponse(varListofBoardIntegrationResponse.getCardIntegrationResponses()))
                                 .build()
                 )
                 .toList();

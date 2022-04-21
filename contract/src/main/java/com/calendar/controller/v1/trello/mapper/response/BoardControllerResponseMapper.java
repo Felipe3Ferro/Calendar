@@ -26,7 +26,6 @@ public class BoardControllerResponseMapper {
                         ListofBoardControllerResponse.builder()
                                 .id(varListofBoardServiceResponse.getId())
                                 .name(varListofBoardServiceResponse.getName())
-                                .desc(varListofBoardServiceResponse.getDesc())
                                 .cardControllerResponses(toCardControllerResponse(varListofBoardServiceResponse.getCardServiceResponse()))
                                 .build()
                 )

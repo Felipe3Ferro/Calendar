@@ -1,6 +1,4 @@
 
-š
-jcontract/src/main/java/com/calendar/controller/v1/trello/model/response/ListofBoardControllerResponse.java,e/7/e73c801a1d5c6e6498d4cc75293b6ec440d5094a
 “
 ccontract/src/main/java/com/calendar/controller/v1/trello/model/response/CardControllerResponse.java,0/5/05089f284557c90b656a893da1b58ee777fc59ea
 ”
@@ -23,30 +21,11 @@ O
 gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
 7
 HELP.md,1/a/1a273f73b7a477b0745593641bd708a6182c7ad5
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-…
-Uimpl/src/main/java/com/calendar/trello/model/response/ListofBoardServiceResponse.java,d/9/d981940c28f1fbef3f7f945336f0a913edb45522
-~
-Nimpl/src/main/java/com/calendar/trello/model/response/CardServiceResponse.java,d/c/dc2ca07d57f56939870811fbea2821ee22abdf49
 
 Oimpl/src/main/java/com/calendar/trello/model/response/BoardServiceResponse.java,6/b/6b8dc4772220b39e692ab31d40997f698ef84d21
-›
-kcontract/src/main/java/com/calendar/controller/v1/trello/mapper/response/BoardControllerResponseMapper.java,2/2/227d156c079bcf646b28710c2159ee68124de1bc
-†
-Vimpl/src/main/java/com/calendar/trello/mapper/response/BoardServiceResponseMapper.java,3/e/3ed61f34bf90552bf84707964251351982e55d61
-
-`integration/src/main/java/com/calendar/trello/model/response/ListofBoardIntegrationResponse.java,5/e/5e49a83821288a19369d226d8dea73de9ab5f1bc
-‰
-Yintegration/src/main/java/com/calendar/trello/model/response/CardIntegrationResponse.java,3/a/3a32c92445255c04e6fff302c3ef9145ab5386d6
-i
-9impl/src/main/java/com/calendar/trello/TrelloService.java,c/0/c0a561df48004f0f710dc7d5bea1a5c03b6c58e3
-‹
-[contract/src/main/java/com/calendar/controller/v1/trello/facade/TrelloControllerFacade.java,c/7/c70896333a1eb8a60661bb47076a570b4e3b97cc
 ~
 Ncontract/src/main/java/com/calendar/controller/v1/trello/TrelloController.java,2/a/2aad11a397dea644cd2a6935eaff6b3a306b73d9

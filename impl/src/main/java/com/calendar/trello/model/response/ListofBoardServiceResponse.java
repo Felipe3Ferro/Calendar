@@ -15,6 +15,5 @@ import java.util.List;
 public class ListofBoardServiceResponse {
     private String id;
     private String name;
-    private String desc;
     private List<CardServiceResponse> cardServiceResponse;
 }
