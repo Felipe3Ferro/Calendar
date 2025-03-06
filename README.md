@@ -1,4 +1,4 @@
-# ✨ Estudo sobre JavaFX
+# JavaFX
 
 Este repositório tem como objetivo explorar o **JavaFX**, um framework para criação de interfaces gráficas ricas em Java. Durante este estudo, serão abordados conceitos essenciais, como a estrutura de um projeto JavaFX, manipulação de eventos, layouts e estilização com CSS.
 
